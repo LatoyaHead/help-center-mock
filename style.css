@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  padding: 0.938rem 3.125rem;
+  background-color: black;
+  color: white;
+  justify-content: space-between;
+}
+
+.first-section {
+  display: flex;
+}
+
+.logo {
+  width: 0.938rem;
+  height: 0.938rem;
+  background-color: white;
+}
+
+h5 {
+  padding-left: 0.313rem;
+  font-weight: 200;
+  font-size: 1em;
+}
+
+
+.submit {
+  background-color: rgb(26, 27, 30);
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 15px;
+  border: none;
+}
+
+.signin {
+  background-color: rgb(77, 96, 215);
+  font-size: 15px;
+  padding: 8px;
+  border-radius: 5px;
+  color: white;
+  border: none;
+}
+
+.second-section {
+  background-color: #dadbf1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+h2 {
+  font-size: 4em;
+  font-weight: lighter;
+  padding: 15px 15px;
+}
+
+.search {
+  position: relative;
+  width: 100%;
+}
+
+.search-section {
+  width: 60%;
+
+}
+
+input {
+  width: 100%;
+  padding: 10px 5px;
+}
+
+.arrow {
+  width: 15px;
+  position: absolute;
+  right: 0px;
+  top: 10px
+}
+
+.imgs {
+  width: 50px;
+}
+
+a {
+  text-decoration: none;
+}
